@@ -1,10 +1,25 @@
-torch==2.4.1
-torchvision==0.19.1
-torchaudio==2.4.1
-transformers
-streamlit
-numpy
-pillow
-matplotlib
+# Core ML & DL
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Image Captioning (BLIP)
+transformers>=4.38.0
+sentencepiece  # required by some tokenizers
+
+# UI
+streamlit>=1.25.0
+
+# Image & Array Ops
+numpy>=1.23.0
+pillow>=9.0.0
+matplotlib>=3.6.0
+opencv-python>=4.7.0
+
+# Jupyter for notebooks
 jupyter
-datasets
+
+# Optional (nice-to-have)
+tqdm       # progress bars for training
+scikit-learn  # metrics and evaluation
+
+# Ensure Python >= 3.8
