@@ -76,7 +76,7 @@ image-captioning-app/
 ├── create_directories_files.py      # for creating directories and files
 ├── requirements.txt                 # Python dependencies
 └── README.md                        # Project overview
-
+```
 
 ## Setup Instructions
 Follow the steps below to set up and run the project:
@@ -86,31 +86,31 @@ Follow the steps below to set up and run the project:
 ```bash
 git clone https://github.com/Jeet2103/image_captioning_segmentation.git
 cd image_captioning_segmentation
-
+```
 ###  Step 2: Set Up Python Environment (with `conda`)
 
 ```bash
 conda create -n caption_env python=3.10 -y
 conda activate caption_env
 
-
+```
 Or use `venv`:
 
 ```bash
 python -m venv caption_env
 source caption_env/bin/activate  # on Windows: caption_env\\Scripts\\activate
 
-
+```
 ### Step 3: Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 
-
+```
 ### Step 4: Run the Streamlit App
 
 ```bash
 streamlit run app.py
 
-
+```
 The app will open in your default browser at `http://localhost:8501`.
