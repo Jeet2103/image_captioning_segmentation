@@ -1,10 +1,10 @@
-# 🖼️ Image Captioning and Segmentation App
+# Image Captioning and Segmentation App
 
 An advanced and integrated deep learning application that can automatically **generate descriptive captions** for images and perform **instance segmentation** and **semantic segmentation** using state-of-the-art models like **BLIP** and **Mask R-CNN**. This project combines the power of computer vision and natural language processing to deliver an intuitive and interactive AI tool.
 
 ---
 
-## 🌟 Project Overview
+## Project Overview
 
 This project aims to bridge the gap between visual content and natural language by generating meaningful captions for images and identifying object segments. Built using powerful transformer-based models and CNN-based segmentation, the app empowers accessibility, searchability, and understanding of image content.
 
@@ -16,7 +16,7 @@ All this is wrapped in a **Streamlit interface** for easy interaction.
 
 ---
 
-## 🧠 Approach
+## Approach
 
 1. **Dataset Preprocessing**
    - Used the **Flickr8k dataset** with captions stored in a CSV file.
@@ -42,7 +42,7 @@ All this is wrapped in a **Streamlit interface** for easy interaction.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Component         | Tool / Library                            |
 |------------------|--------------------------------------------|
@@ -58,7 +58,7 @@ All this is wrapped in a **Streamlit interface** for easy interaction.
 
 ---
 
-## 🗂️ Codebase Structure
+## Codebase Structure
 
 ```bash
 image-captioning-app/
@@ -76,7 +76,7 @@ image-captioning-app/
 ├── create_directories_files.py      # for creating directories and files
 ├── requirements.txt                 # Python dependencies
 └── README.md                        # Project overview
-```
+
 
 ## Setup Instructions
 Follow the steps below to set up and run the project:
@@ -86,31 +86,31 @@ Follow the steps below to set up and run the project:
 ```bash
 git clone https://github.com/Jeet2103/image_captioning_segmentation.git
 cd image_captioning_segmentation
-```
+
 ###  Step 2: Set Up Python Environment (with `conda`)
 
 ```bash
 conda create -n caption_env python=3.10 -y
 conda activate caption_env
 
-```
+
 Or use `venv`:
 
 ```bash
 python -m venv caption_env
 source caption_env/bin/activate  # on Windows: caption_env\\Scripts\\activate
 
-```
+
 ### Step 3: Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 
-```
+
 ### Step 4: Run the Streamlit App
 
 ```bash
 streamlit run app.py
 
-```
+
 The app will open in your default browser at `http://localhost:8501`.
