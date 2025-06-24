@@ -119,5 +119,5 @@ The app will open in your default browser at `http://localhost:8501`.
 
 For a comprehensive explanation of the project including background, methodology, training losses, and results:
 
-👉 **See [`report.md`](./report.md)** for the detailed report.
+**See [`report.md`](./report.md)** for the detailed report.
 
