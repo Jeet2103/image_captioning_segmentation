@@ -80,7 +80,7 @@ All results are delivered through a **user-friendly Streamlit interface**, where
 | Dataset       | Flickr8k                         |
 | Loss Function | Cross-Entropy                    |
 | Optimizer     | AdamW                            |
-| Epochs        | 5                                |
+| Epochs        | 20                                |
 
 #### Segmentation
 
