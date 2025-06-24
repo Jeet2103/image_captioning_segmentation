@@ -47,7 +47,7 @@ All results are delivered through a **user-friendly Streamlit interface**, where
 
 ---
 
-## 🔧 Approach & Methodology
+## Approach & Methodology
 
 ### 1. Dataset Used
 
@@ -58,7 +58,7 @@ All results are delivered through a **user-friendly Streamlit interface**, where
 
 ---
 
-### 2. 🛠 Data Preprocessing
+### 2. Data Preprocessing
 
 - Images resized to `384x384` resolution
 - Data augmentations applied:
@@ -112,19 +112,19 @@ Users can:
 
 ## Results
 
-### 🔹 Captioning Training Loss
+### Captioning Training Loss
 
 ![Captioning Loss](captioning/loss_plot.png)
 
 ---
 
-### 🔹 Segmentation Training Loss
+### Segmentation Training Loss
 
 ![Segmentation Loss](segmentation/segmentation_loss.png)
 
 ---
 
-## ⚙️ Technical Stack
+## Technical Stack
 
 | Component         | Tool / Library                            |
 |------------------|--------------------------------------------|
