@@ -4,18 +4,18 @@
 
 ## Table of Contents
 
-1. [Introduction](#-introduction)  
-2. [Project Overview](#-project-overview)  
-3. [Approach & Methodology](#-approach--methodology)  
+1. [Introduction](#introduction)  
+2. [Project Overview](#project-overview)  
+3. [Approach & Methodology](#approach--methodology)  
    - [Dataset Used](#1--dataset-used)  
    - [Data Preprocessing](#2--data-preprocessing)  
    - [Model Training](#3--model-training)  
-4. [Streamlit Interface](#-streamlit-interface)  
-5. [Results](#-results)  
-6. [Technical Stack](#-technical-stack)  
-7. [Evaluation & Observations](#-evaluation--observations)  
-8. [Future Improvements](#-future-improvements)  
-9. [Conclusion](#-conclusion)  
+4. [Streamlit Interface](#streamlit-interface)  
+5. [Results](#results)  
+6. [Technical Stack](#technical-stack)  
+7. [Evaluation & Observations](#evaluation--observations)  
+8. [Future Improvements](#future-improvements)  
+9. [Conclusion](#conclusion)  
 
 ---
 
